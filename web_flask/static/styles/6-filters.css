@@ -1,0 +1,35 @@
+/* Filters Styles */
+
+/* Update .popover class to enable scrolling and set max height */
+.popover {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 10;
+    top: 30px;
+    width: 200px;
+    overflow-y: auto;
+    max-height: 300px; /* Update max height */
+}
+
+.popover ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.popover ul li {
+    padding: 5px 0;
+}
+
+.popover ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.popover ul li a:hover {
+    color: #666;
+}
+

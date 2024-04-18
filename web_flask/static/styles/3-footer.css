@@ -1,0 +1,32 @@
+/* Footer Styles */
+
+footer.clearfix {
+    margin-top: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer.clearfix .description {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+footer.clearfix .description p {
+    margin: 10px 0;
+}
+
+footer.clearfix .description p.p_footer {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer.clearfix .description p.p_footer:last-child {
+    margin-bottom: 0;
+}
+
+footer.clearfix .description:first-child {
+    border-right: 1px solid #fff;
+}
+
